@@ -1,165 +1,191 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>mxpus521 | 前端架构师</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Creative Developer</title>
+    <meta name="description"
+        content="Personal portfolio of a creative developer specializing in building exceptional digital experiences.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
     <link rel="stylesheet" href="style.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 </head>
 
 <body>
-    <div class="iphone-container">
-        <!-- 状态栏 -->
-        <div class="status-bar">
-            <div class="time">9:41</div>
-            <div class="status-icons">
-                <span class="signal">●●●●</span>
-                <span class="wifi">◈</span>
-                <span class="battery">100%</span>
-            </div>
-        </div>
-
-        <!-- 导航栏 -->
-        <div class="nav-bar">
-            <div class="nav-title">mxpus521</div>
-        </div>
-
-        <!-- 主要内容区域 -->
-        <div class="content-area">
-            <!-- 个人简介卡片 -->
-            <div class="card profile-card">
-                <div class="profile-header">
-                    <div class="avatar">
-                        <div class="avatar-placeholder">M</div>
-                    </div>
-                    <div class="profile-info">
-                        <h1 class="name">mxpus521</h1>
-                        <p class="title">前端架构师</p>
-                    </div>
-                </div>
-                <p class="bio">专注于高性能、可维护的Web应用架构。10年+前端开发经验，曾就职于Tesla、Apple、华为等知名企业。</p>
-            </div>
-
-            <!-- 技能标签 -->
-            <div class="card">
-                <h2 class="section-title">专业技能</h2>
-                <div class="skills-grid">
-                    <div class="skill-item">React</div>
-                    <div class="skill-item">Vue.js</div>
-                    <div class="skill-item">TypeScript</div>
-                    <div class="skill-item">Node.js</div>
-                    <div class="skill-item">WebGL</div>
-                    <div class="skill-item">性能优化</div>
-                </div>
-            </div>
-
-            <!-- 工作经历 -->
-            <div class="card">
-                <h2 class="section-title">工作经历</h2>
-                <div class="timeline">
-                    <div class="timeline-item">
-                        <div class="company-logo">T</div>
-                        <div class="timeline-content">
-                            <h3 class="company">Tesla</h3>
-                            <p class="role">高级前端架构师</p>
-                            <p class="period">2020 - 至今</p>
-                            <p class="description">主导Tesla UI系统重构，提升渲染性能60%</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="company-logo">A</div>
-                        <div class="timeline-content">
-                            <h3 class="company">Apple</h3>
-                            <p class="role">前端技术专家</p>
-                            <p class="period">2017 - 2020</p>
-                            <p class="description">参与Safari浏览器核心渲染引擎优化</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="company-logo">H</div>
-                        <div class="timeline-content">
-                            <h3 class="company">华为</h3>
-                            <p class="role">高级前端工程师</p>
-                            <p class="period">2015 - 2017</p>
-                            <p class="description">负责HarmonyOS前端框架开发</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- 项目展示 -->
-            <div class="card">
-                <h2 class="section-title">代表项目</h2>
-                <div class="projects-list">
-                    <div class="project-item">
-                        <h3 class="project-title">Neural UI 框架</h3>
-                        <p class="project-description">AI驱动的UI引擎，可根据用户行为实时调整界面布局</p>
-                        <div class="tech-tags">
-                            <span class="tech-tag">React</span>
-                            <span class="tech-tag">AI</span>
-                        </div>
-                    </div>
-                    <div class="project-item">
-                        <h3 class="project-title">Quantum CSS 编译器</h3>
-                        <p class="project-description">新一代CSS编译器，性能领先全球</p>
-                        <div class="tech-tags">
-                            <span class="tech-tag">Rust</span>
-                            <span class="tech-tag">WebAssembly</span>
-                        </div>
-                    </div>
-                    <div class="project-item">
-                        <h3 class="project-title">HoloWeb 全息平台</h3>
-                        <p class="project-description">引领WebXR未来，为沉浸式交互设立新标杆</p>
-                        <div class="tech-tags">
-                            <span class="tech-tag">WebXR</span>
-                            <span class="tech-tag">Three.js</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- 联系方式 -->
-            <div class="card">
-                <h2 class="section-title">联系我</h2>
-                <div class="contact-list">
-                    <a href="mailto:mxpus521@example.com" class="contact-item">
-                        <span class="contact-icon">✉️</span>
-                        <span class="contact-text">mxpus521@example.com</span>
-                    </a>
-                    <a href="https://github.com/mxpus521" class="contact-item">
-                        <span class="contact-icon">💻</span>
-                        <span class="contact-text">GitHub</span>
-                    </a>
-                    <a href="https://linkedin.com/in/mxpus521" class="contact-item">
-                        <span class="contact-icon">💼</span>
-                        <span class="contact-text">LinkedIn</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <!-- 底部导航栏 -->
-        <div class="bottom-nav">
-            <div class="nav-item active">
-                <div class="nav-icon">👤</div>
-                <div class="nav-label">关于</div>
-            </div>
-            <div class="nav-item">
-                <div class="nav-icon">💼</div>
-                <div class="nav-label">经历</div>
-            </div>
-            <div class="nav-item">
-                <div class="nav-icon">🚀</div>
-                <div class="nav-label">项目</div>
-            </div>
-            <div class="nav-item">
-                <div class="nav-icon">📞</div>
-                <div class="nav-label">联系</div>
-            </div>
-        </div>
+    <!-- Background Animation -->
+    <div class="background-animation">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
     </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Alex.</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <span class="greeting">Hello, I'm</span>
+            <h1 class="name">Alex Chen</h1>
+            <h2 class="role">I build <span class="typing-text"></span></h2>
+            <p class="bio">A passionate developer crafting beautiful, high-performance web experiences with a focus on
+                interaction and design.</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">View Work</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About Me</h2>
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right">
+                    <div class="img-wrapper">
+                        <img src="images/about-me.png" alt="Creative Developer Workspace" class="about-img">
+                    </div>
+                </div>
+                <div class="about-text" data-aos="fade-left">
+                    <h3>Creative Thinker & Problem Solver</h3>
+                    <p>I'm a software engineer based in Shanghai, specializing in building (and occasionally designing)
+                        exceptional digital experiences. Currently, I'm focused on building accessible, human-centered
+                        products.</p>
+                    <p>When I'm not coding, you can find me exploring new tech, playing video games, or reading sci-fi
+                        novels.</p>
+
+                    <div class="skills">
+                        <span class="skill-tag">JavaScript (ES6+)</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">UI/UX Design</span>
+                        <span class="skill-tag">Three.js</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-img">
+                        <img src="images/project-dashboard.png" alt="Neon Dashboard" class="p-img">
+                    </div>
+                    <div class="project-info">
+                        <h3>Neon Dashboard</h3>
+                        <p>A futuristic analytics dashboard with real-time data visualization.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>D3.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-img">
+                        <img src="images/project-ecommerce.png" alt="E-Commerce API" class="p-img">
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Commerce API</h3>
+                        <p>A robust RESTful API for a high-scale e-commerce platform.</p>
+                        <div class="project-tech">
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-img">
+                        <img src="images/project-chat.png" alt="AI Chat Interface" class="p-img">
+                    </div>
+                    <div class="project-info">
+                        <h3>AI Chat Interface</h3>
+                        <p>A clean, responsive interface for interacting with LLMs.</p>
+                        <div class="project-tech">
+                            <span>Vue.js</span>
+                            <span>OpenAI API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+            <div class="contact-content" data-aos="fade-up">
+                <p>I'm currently looking for new opportunities, my inbox is always open. Whether you have a question or
+                    just want to say hi, I'll try my best to get back to you!</p>
+                <a href="mailto:hello@example.com" class="btn btn-primary big-btn">Say Hello</a>
+
+                <div class="social-links">
+                    <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Designed & Built by Alex Chen</p>
+        <p class="copyright">&copy; 2025 All rights reserved.</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>
